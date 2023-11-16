@@ -21,7 +21,7 @@
     height: 43px;
 }
 
-.right{
+.right,.rightBar{
     margin-right: 21.3vw;
     display: flex;
     font-family: 'Lato', sans-serif;
@@ -36,4 +36,41 @@
 
 .nonHero{
     color: #414f6b;
+}
+
+.rightBar{
+    margin: 0;
+}
+
+.bar{
+    display: none;
+}
+
+@media screen and (max-width: 980px){
+    
+    .left{
+        margin-left: 10%;
+    }
+    .right{
+        display: none;
+        
+    }
+    .bar{
+        margin-right: 10%;
+        display: block;
+        cursor: pointer;
+    }
+    .rightBar{
+        font-size: 0.7em;
+        position: fixed;
+        right: 0;
+        flex-direction: column;
+        gap: 0;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        top: 8.2vh;
+        background-color: rgba(255, 255, 255, 0.7);
+        z-index: 1;
+    }
 }

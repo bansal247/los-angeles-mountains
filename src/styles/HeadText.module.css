@@ -25,3 +25,15 @@
     /* bottom: 9vh; */
     right: 2.1vw;
 }
+
+@media screen and (max-width: 980px){
+    .main > p{
+        top: 5px;
+        right: 1.5vw;
+        /* height: 14%; */
+        line-height: 1em;
+    }
+    .main > h1{
+        line-height: 1em;
+    }
+}
