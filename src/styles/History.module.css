@@ -1,0 +1,36 @@
+.main{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between
+}
+
+.carousel{
+    color: white;
+}
+
+.textContent{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    align-self: center;
+    margin-top: 15vh;
+}
+
+.textContent>p{
+    margin: 0;
+    width: 50vw;
+    align-self: center;
+}
+
+@media screen and (max-width: 980px){
+    .main{
+        background-position-x: 40%;
+    }
+}

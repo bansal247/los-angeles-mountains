@@ -1,0 +1,35 @@
+.main{
+    /* height: 20vh; */
+    padding: 2vh 0;
+    width: 100%;
+    background-color: rgba(65, 79, 107, 0.6);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    gap: .6vw;
+}
+
+.ellipse{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5vh;
+    gap: 1.5vw;
+}
+
+.dot{
+    height: .5vw;
+    width: .5vw;
+    border-radius: 50%;
+    background-color: white;
+}

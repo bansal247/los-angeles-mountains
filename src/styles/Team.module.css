@@ -1,0 +1,63 @@
+.main{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+
+    
+}
+
+.textContent{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    background-color: white;
+    width: 100%;
+    padding: 2vh 0 4.5vh 0;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
+.textContent>p{
+    margin: 0;
+    width: 36vw;
+    align-self: center;
+}
+
+.mountainOptions{
+    width: 100%;
+    background-color: #414f6b;
+    color: #414f6b;
+    display: flex;
+    height: fit-content;
+    z-index: 10;
+    
+}
+
+.option{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-decoration: underline;
+    padding: .5vh 1vw;
+    margin-left: 21.3vw;
+    
+}
+
+.option:hover{
+    cursor: pointer;
+}
+
+.schedule{
+    position: relative;
+    width: fit-content;
+    /* height: 100%; */
+    top: 13%;
+    left: 22vw;
+    display: flex;
+}
+
+@media screen and (max-width: 980px){
+    .main{
+        background-position-x: 40%;
+    }
+}

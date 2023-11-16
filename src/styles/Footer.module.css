@@ -1,0 +1,28 @@
+.main{
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(65, 79, 107, 1);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #63769d;
+}
+
+.left{
+    margin-left: 21.3vw;
+}
+
+.left > img{
+    height: 43px;
+}
+
+.right{
+    margin-right: 21.3vw;
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+    font-style: italic;
+    gap: 4.375vw;
+}

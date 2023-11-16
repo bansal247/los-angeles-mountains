@@ -1,0 +1,27 @@
+.main{
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    /* width: 14vw; */
+    height: fit-content;
+    line-height: 9em;
+    color: #414f6b;
+    /* height: 20vh; */
+}
+
+.main > h1{
+    margin: 0;
+    font-size: 10vw;
+    padding: 0;
+    opacity: .6;
+}
+
+.main > p{
+    position: relative;
+    margin: 0;
+    font-size: 3vw;
+    align-self: center;
+    top: 10px;
+    /* bottom: 9vh; */
+    right: 2.1vw;
+}

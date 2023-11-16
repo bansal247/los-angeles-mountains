@@ -1,0 +1,13 @@
+.main{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+
+@media screen and (max-width: 980px){
+    .main{
+        background-position-x: 40%;
+    }
+}
