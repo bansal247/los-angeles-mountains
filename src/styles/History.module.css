@@ -33,4 +33,7 @@
     .main{
         background-position-x: 40%;
     }
+    .textContent>p{
+        font-size: 0.6em;
+    }
 }

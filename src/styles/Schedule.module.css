@@ -24,3 +24,15 @@
 .item>p{
     margin: 0;
 }
+
+@media screen and (max-width: 980px){
+    .main{
+        width: fit-content;
+    }
+    .item{
+        gap: 3vw;
+    }
+    .item>p{
+       font-size: 0.8em;
+    }
+}

@@ -26,3 +26,14 @@
     font-style: italic;
     gap: 4.375vw;
 }
+
+@media screen and (max-width: 980px){
+    
+    .left{
+        margin-left: 10%;
+    }
+    .right{
+        margin-right: 10%;
+        font-size: 1.5vw;
+    }
+}
